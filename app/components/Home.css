@@ -1,8 +1,11 @@
 .container {
-  position: absolute;
-  top: 30%;
-  left: 10px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.windowSelectBox {
+  flex-grow: 1;
 }
 
 .container h2 {
